@@ -1,0 +1,18 @@
+.sizeh{
+    font-style: italic;
+   font-size: 18px !important;
+}
+
+a{
+    text-align: center;
+}  
+.bg{
+    background-color: #2C3E50;
+    transition: 1s padding;
+}
+@media screen and (min-width:768px) {
+    .sizeh{
+        font-size: 32px !important;
+    }
+    
+}

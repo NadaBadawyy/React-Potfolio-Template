@@ -1,0 +1,17 @@
+.bg{
+    background-color: #1ABC9C ;
+}
+.w{
+    width: 100px;
+}
+.bcolor{
+    border-color: #2C3E50 !important;
+}
+
+@media screen and (min-width:768px) {
+    .txt{
+        display: flex;
+        gap: 5;
+    }
+    
+}

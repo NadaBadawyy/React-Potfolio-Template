@@ -1,0 +1,30 @@
+.input{
+   
+
+}
+.p{
+    position: relative;
+
+}
+.txt{
+    color:#1ABC9C ;
+    
+}
+.w{
+    width: 100px;
+}
+.bg{
+    background-color:#1ABC9C !important ;
+}
+.l{
+    transition: 1s;
+    
+
+}
+@media screen and (min-width:992px) {
+    .input{
+        width: 60%;
+        
+    }
+    
+}
