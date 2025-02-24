@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
 import About from './Components/About/About'
 import Home from './Components/Home/Home'
@@ -12,9 +12,9 @@ import NotFoundPage from './Components/NotFoundPage/NotFoundPage'
 
 function App() {
   const [count, setCount] = useState(0)
-  let x=createBrowserRouter([
+  let x=createHashRouter([
     {path:"",element:<Layout/>, children:[
-      {index:true,element:<Home/>},
+      {path:'',element:<Home/>},
       {path:"about", element: <About/>},
       {path:"contact", element: <Contact/>},
       {path:"portfolio", element: <Portfolio/>},
